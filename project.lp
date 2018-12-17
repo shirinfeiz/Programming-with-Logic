@@ -25,3 +25,4 @@ on(P,L,T+1) :- on(P,L,T), not move(P,_,T+1), time(T+1).
 %where was julie before the school?
 query1(L):- on(julie,L,T), on(julie, school, T+1 ), time(T),location(L). 
 #show query1/1.
+#show on/3.
